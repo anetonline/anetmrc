@@ -297,9 +297,11 @@ Harmless. Drop any ANSI banner file named `mrc_banner.ans` next to
 - **Thanks to StackFault at The Bottomless Abyss BBS**
 
 https://bbs.bottomlessabyss.net
+
 telnet://bbs.bottomlessabyss.net:2023
 ssh://bbs.bottomlessabyss.net:2222
 https://status-na-multi.relaychat.net/
+
 
 - **xbit of X-Bit BBS and 32-Bit BBS** - helping to test MRC (with lots of patience) and keeping Spitfire BBS Alive!
 https://x-bit.org
@@ -315,6 +317,7 @@ https://github.com/codefenix-dev/uMRC
 - **StingRay / A-Net Online BBS** — design, testing, and dogfooding.
 - **The MRC protocol** — Andrew Pamment (u-mrc author) — see
   `MRC-DEV-DOCS.TXT` for the full 1.3 specification.
+
 https://a-net.online
 telnet://a-net.online:1337
 ssh://a-net.online:1338
