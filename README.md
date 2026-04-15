@@ -42,7 +42,7 @@ it automatically.
 - **Mentions** — your handle is tracked with case-insensitive word-boundary
   matching; mention counter on row 2 of the chat screen, `/mentions`
   command shows last mentioner.
-- **Scrollback** — 40-message ring buffer, PgUp/PgDn + Up/Down navigation.
+- **Scrollback** — 40-message ring buffer, Up/Down navigation.
 - **Tab autocomplete** — users in the current room are completed from a
   live user list.
 - **Themes** — six ANSI themes for the chat rule row.
