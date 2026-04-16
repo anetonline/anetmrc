@@ -314,9 +314,7 @@ uMRC is by far one of the smoothest, stylish MRC clients out there to date!
 https://conchaos.synchro.net • telnet://conchaos.synchro.net • ssh://conchaos.synchro.net
 https://github.com/codefenix-dev/uMRC
 
-- **StingRay / A-Net Online BBS** — design, testing, and dogfooding.
-- **The MRC protocol** — Andrew Pamment (u-mrc author) — see
-  `MRC-DEV-DOCS.TXT` for the full 1.3 specification.
+- **StingRay / A-Net Online BBS** —
 
 https://a-net.online
 telnet://a-net.online:1337
