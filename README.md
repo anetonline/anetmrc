@@ -1,4 +1,4 @@
-# ANETMRC — MRC 1.3 Chat Client for DOS BBSes
+# ANETMRC — MRC 1.3.6 Chat Client for DOS BBSes
 
 
 **PLEASE, Report ANY bug/issues/concerns to StingRay @ a-net-online.lol or a-net-online @ proton.me**
