@@ -351,8 +351,8 @@ CREDITS
   StingRay  /  A-Net Online BBS
 
      https://a-net.online
-     telnet://a-net.online:1337
-     ssh://a-net.online:1338
+     telnet://bbs.a-net.online:1337
+     ssh://bbs.a-net.online:1338
 
 
 LICENSE
