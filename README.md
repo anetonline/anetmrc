@@ -25,8 +25,11 @@ once on the BBS machine and every node that the sysop boots up will attach to
 it automatically.
 
 ---
-
+SCREENSHOTS
 https://github.com/anetonline/anetmrc/blob/main/ANETMRC1.png
+https://github.com/anetonline/anetmrc/blob/main/ANETMRC2.png
+https://github.com/anetonline/anetmrc/blob/main/ANETMRC3.png
+https://github.com/anetonline/anetmrc/blob/main/ANETMRC4.png
 
 ## Features
 
