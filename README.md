@@ -6,7 +6,7 @@
 
 **ANETMRC** is a full MRC (Multi-Relay Chat) 1.3 client for any DOS-native BBS
 that produces a `DOOR.SYS` dropfile and runs a FOSSIL driver. It lets users on
-your BBS join the live MRC chat network (`na-multi.relaychat.net:5000`) and
+your BBS join the live MRC chat network and
 talk in real-time with users on other connected BBSes worldwide.
 
 The project is a two-process design:
