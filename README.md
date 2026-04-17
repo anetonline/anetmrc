@@ -1,7 +1,7 @@
 # ANETMRC — MRC 1.3 Chat Client for DOS BBSes
 
 
-**PLEASE, Report ANY bug/issues/concerns to StingRay@a-net-online.lol or a-net-online@proton.me**
+**PLEASE, Report ANY bug/issues/concerns to StingRay [@] a-net-online.lol or a-net-online [@] proton.me**
 
 
 **ANETMRC** is a full MRC (Multi-Relay Chat) 1.3 client for any DOS-native BBS
