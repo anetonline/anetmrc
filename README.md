@@ -313,8 +313,7 @@ https://conchaos.synchro.net • telnet://conchaos.synchro.net • ssh://conchao
 https://github.com/codefenix-dev/uMRC
 
 - **StingRay / A-Net Online BBS** — design, testing, and dogfooding.
-- **The MRC protocol** — Andrew Pamment (u-mrc author) — see
-  `MRC-DEV-DOCS.TXT` for the full 1.3 specification.
+
 https://a-net.online
 telnet://a-net.online:1337
 ssh://a-net.online:1338
