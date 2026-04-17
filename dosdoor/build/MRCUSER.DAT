@@ -1,0 +1,10 @@
+[SysOp]
+handle=Sysop
+handle_color=11
+handle_prefix=
+handle_suffix=
+text_color=7
+enterroom=has joined
+leaveroom=has left
+theme=1
+

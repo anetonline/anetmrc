@@ -1,5 +1,5 @@
 ===============================================================================
-                       ANETMRC  v1.3.6
+                       ANETMRC  v1.3.7
               MRC 1.3 Chat Client for DOS BBSes
                   by StingRay / A-Net Online BBS
 ===============================================================================
@@ -349,10 +349,16 @@ CREDITS
      https://github.com/codefenix-dev/uMRC
 
   StingRay  /  A-Net Online BBS
-
+     Design, testing, and dogfooding.
      https://a-net.online
-     telnet://bbs.a-net.online:1337
-     ssh://bbs.a-net.online:1338
+     telnet://a-net.online:1337
+     ssh://a-net.online:1338
+
+  The MRC protocol
+     Andrew Pamment (author of u-mrc).  The full 1.3 specification
+     is NOT shipped with this release - it is not needed to build or
+     run ANETMRC.  If you want it for protocol-level development, get
+     it from the u-mrc project upstream.
 
 
 LICENSE

@@ -1,12 +1,12 @@
-# ANETMRC — MRC 1.3.6 Chat Client for DOS BBSes
+# ANETMRC — MRC 1.3 Chat Client for DOS BBSes
 
 
-**PLEASE, Report ANY bug/issues/concerns to StingRay @ a-net-online.lol or a-net-online @ proton.me**
+**PLEASE, Report ANY bug/issues/concerns to StingRay@a-net-online.lol or a-net-online@proton.me**
 
 
 **ANETMRC** is a full MRC (Multi-Relay Chat) 1.3 client for any DOS-native BBS
 that produces a `DOOR.SYS` dropfile and runs a FOSSIL driver. It lets users on
-your BBS join the live MRC chat network and
+your BBS join the live MRC chat network (`na-multi.relaychat.net:5000`) and
 talk in real-time with users on other connected BBSes worldwide.
 
 The project is a two-process design:
@@ -25,12 +25,6 @@ once on the BBS machine and every node that the sysop boots up will attach to
 it automatically.
 
 ---
-SCREENSHOTS:
-
-https://github.com/anetonline/anetmrc/blob/main/ANETMRC1.png
-https://github.com/anetonline/anetmrc/blob/main/ANETMRC2.png
-https://github.com/anetonline/anetmrc/blob/main/ANETMRC3.png
-https://github.com/anetonline/anetmrc/blob/main/ANETMRC4.png
 
 ## Features
 
@@ -48,7 +42,7 @@ https://github.com/anetonline/anetmrc/blob/main/ANETMRC4.png
 - **Mentions** — your handle is tracked with case-insensitive word-boundary
   matching; mention counter on row 2 of the chat screen, `/mentions`
   command shows last mentioner.
-- **Scrollback** — 40-message ring buffer, Up/Down navigation.
+- **Scrollback** — 40-message ring buffer, PgUp/PgDn + Up/Down navigation.
 - **Tab autocomplete** — users in the current room are completed from a
   live user list.
 - **Themes** — six ANSI themes for the chat rule row.
@@ -303,11 +297,9 @@ Harmless. Drop any ANSI banner file named `mrc_banner.ans` next to
 - **Thanks to StackFault at The Bottomless Abyss BBS**
 
 https://bbs.bottomlessabyss.net
-
 telnet://bbs.bottomlessabyss.net:2023
 ssh://bbs.bottomlessabyss.net:2222
 https://status-na-multi.relaychat.net/
-
 
 - **xbit of X-Bit BBS and 32-Bit BBS** - helping to test MRC (with lots of patience) and keeping Spitfire BBS Alive!
 https://x-bit.org
@@ -320,11 +312,12 @@ uMRC is by far one of the smoothest, stylish MRC clients out there to date!
 https://conchaos.synchro.net • telnet://conchaos.synchro.net • ssh://conchaos.synchro.net
 https://github.com/codefenix-dev/uMRC
 
-- **StingRay / A-Net Online BBS** —
-
+- **StingRay / A-Net Online BBS** — design, testing, and dogfooding.
+- **The MRC protocol** — Andrew Pamment (u-mrc author) — see
+  `MRC-DEV-DOCS.TXT` for the full 1.3 specification.
 https://a-net.online
-telnet://bbs.a-net.online:1337
-ssh://bbs.a-net.online:1338
+telnet://a-net.online:1337
+ssh://a-net.online:1338
 ---
 
 ## License

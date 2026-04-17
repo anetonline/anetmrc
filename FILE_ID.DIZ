@@ -1,11 +1,16 @@
-╔══════════════════════════════════════════╗
-║ █▀█ █▄░█ █▀▀ ▀█▀ █▀▄▀█ █▀█ █▀▀   v1.3.5  ║
-║ █▀█ █░▀█ █▀▀ ░█░ █░▀░█ █▀▄ █░░           ║
-║ ▀░▀ ▀░░▀ ▀▀▀ ░▀░ ▀░░░▀ ▀░▀ ▀▀▀           ║
-║  MRC 1.3 Chat Client for DOS BBSes       ║
-║  · 16-bit door + Win32 TCP bridge        ║
-║  · FOSSIL · DOOR.SYS · up to 8 nodes     ║
-║  · CTCP · mentions · twit · AFK · MCI    ║
-║  · StingRay / A-Net Online BBS · FREE    ║
-║  · https://a-net.online                  ║
-╚══════════════════════════════════════════╝
++=============================================+
+|            A N E T M R C    v1.3.7          |
+|                                             |
+|    MRC 1.3 Chat Client for DOS BBSes        |
+|                                             |
+|  * 16-bit DOS door + Win32 TCP bridge       |
+|  * FOSSIL  *  DOOR.SYS  *  up to 8 nodes    |
+|  * CTCP * mentions * twit * AFK * MCI       |
+|  * Real-time chat with other BBSes in the   |
+|    MRC network, worldwide - FREEWARE        |
+|                                             |
+|  by StingRay -- A-Net Online BBS            |
+|                                             |
+|  https://a-net.online                       |
+|  telnet://a-net.online:1337                 |
++=============================================+
