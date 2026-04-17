@@ -1,8 +1,0 @@
-system dos
-name build/anetmrc.exe
-option map=build/anetirc_dosdoor.map
-option stack=32k
-file build/obj/main.obj
-file build/obj/fossil.obj
-file build/obj/dropfile.obj
-file build/obj/bridge.obj
