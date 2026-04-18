@@ -1,5 +1,5 @@
 ===============================================================================
-                       ANETMRC  v1.3.7
+                       ANETMRC  v1.3.8
               MRC 1.3 Chat Client for DOS BBSes
                   by StingRay / A-Net Online BBS
 ===============================================================================
@@ -353,7 +353,6 @@ CREDITS
      https://a-net.online
      telnet://a-net.online:1337
      ssh://a-net.online:1338
-
 
 
 LICENSE

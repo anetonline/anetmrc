@@ -1,5 +1,5 @@
 ===============================================================================
-                  ANETMRC  v1.3.7  -  Installation Guide
+                  ANETMRC  v1.3.8  -  Installation Guide
 ===============================================================================
 
 
@@ -80,11 +80,6 @@ Clone or unpack the source into a working directory.  Layout:
       |-- helper_win32/         <- the Win32 bridge + config tool
       |-- README.TXT
       |-- INSTALL.TXT   (this file)
-
-    NOTE: The MRC 1.3 protocol reference (MRC-DEV-DOCS.TXT) is NOT
-    shipped with this release.  You do not need it to build, install,
-    or run ANETMRC.  It is only useful for protocol-level development
-    and can be obtained from the u-mrc project upstream.
 
 
 BUILD THE DOS DOOR:

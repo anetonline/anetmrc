@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.3.8] - 2026-04-18
+
+### Fixed
+- **`--local` colliding with COM1/node 1.**  `--local` was hardcoded to
+  `comm_port = 0`, which resolved to `ANETDOS.OUT/IN` — the same files
+  COM1 uses.  Running `--local` alongside a live node 1 made the two
+  doors share one bridge slot, so each could see the other's traffic
+  (including connection state, identify replies, and chat).  `--local`
+  now uses a dedicated `ANETDOS0.OUT/IN` pair, and the bridge reuses
+  slot 1 (previously dormant) to service it.  The `[N<slot>]` prefix
+  has been added to every `helper_log` line to make multi-node logs
+  unambiguous.
+
+### Changed
+- **Unknown `/command` is forwarded to the MRC server.**  Previously,
+  any `/` command the door did not recognise produced
+  `ERR Unknown: /foo (try /help)`.  With new server-side helpers being
+  added regularly (e.g. `!list`, `!welcome`, `!games`), the door now
+  converts unknown `/foo args` to `!foo args` and sends it through the
+  bridge; the helper's unknown-`!`-command catch-all already forwards
+  to the server as a room message and captures the response via WHOON
+  routing.  If the server doesn't know the command, it returns its own
+  error.  No client updates needed as the MRC helper command set grows.
+- Version strings bumped to `1.3.8`.
+
+
 ## [1.3.7] - 2026-04-17
 
 ### Fixed
@@ -100,6 +126,7 @@ Baseline functionality:
 
 ## Notes
 
+[1.3.8]: https://github.com/YOURNAME/anetmrc/releases/tag/v1.3.8
 [1.3.7]: https://github.com/YOURNAME/anetmrc/releases/tag/v1.3.7
 [1.3.6]: https://github.com/YOURNAME/anetmrc/releases/tag/v1.3.6
 [1.3.5]: https://github.com/YOURNAME/anetmrc/releases/tag/v1.3.5
